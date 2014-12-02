@@ -1,0 +1,30 @@
+chapter: Posts
+collections:
+
+- type: put
+  url: /post/:id
+  descTitle: Update post
+  descMain: Post updates
+  parameters:
+  - parameter: id
+    data: string
+    desc: Id of post
+    type: path
+  response:
+  messages:
+  - status: 200
+    desc: Success
+
+- type: delete
+  url: /post/:id
+  descTitle: Delete post
+  descMain: Post deletes
+  parameters:
+  - parameter: id
+    data: string
+    desc: Id of post
+    type: path
+  response:
+  messages:
+  - status: 200
+    desc: Success

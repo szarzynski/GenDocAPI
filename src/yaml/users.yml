@@ -1,0 +1,38 @@
+chapter: Users
+collections:
+
+- type: get
+  url: /users
+  descTitle:
+  descMain:
+  parameters:
+  response:
+  - parameter: name
+    data: string
+    desc: Name of user
+    type: query
+  - parameter: last_name
+    data: string
+    desc: Last name of user
+    type: query
+  messages:
+  - status: 200
+    desc: Success
+  - status: 204
+    desc: No users found
+
+- type: post
+  url: /user
+  descTitle: Create new user
+  descMain: App creates new user. New user can edit posts now.
+  parameters:
+  - parameter: username
+    data: string
+    desc: Username of user
+    type: form
+  response:
+  messages:
+  - status: 200
+    desc: Success
+  - status: 401
+    desc: Unauthorized action

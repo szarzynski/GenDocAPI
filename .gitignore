@@ -1,0 +1,11 @@
+/.idea
+/.idea/*
+/app/.idea
+/app/.idea/*
+/.tmp
+/.tmp/*
+/.sass-cache
+/.sass-cache/*
+/dist
+/node_modules
+/app/bower_components

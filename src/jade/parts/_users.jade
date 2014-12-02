@@ -1,0 +1,52 @@
+.row
+	.col-xs-12
+		h3 Users
+		.panel.panel-info
+			.panel-heading
+				h3.panel-title
+					.row
+						.col-xs-6
+							label.label get
+							| /users
+						.col-xs-6.text-right Get all users
+			.panel-body
+
+				blockquote Description
+				p Hello
+
+				blockquote Parameters
+				| -
+
+				blockquote Response
+				table.table.table-striped
+					thead
+						tr
+							th Parameter
+							th Data Type
+							th Description
+							th Parameter Type
+					tbody
+						tr
+							td name
+							td string
+							td Name of user
+							td query
+						tr
+							td last_name
+							td string
+							td Last name of user
+							td query
+
+				blockquote Response Messages
+				table.table.table-striped
+					thead
+						tr
+							th HTTP Status Code
+							th Message
+					tbody
+						tr
+							td 200
+							td Success
+						tr
+							td 204
+							td No users found
