@@ -12,7 +12,7 @@ $ npm install
 How to create documentation
 ----------------
 
-1. Create file with *.yml extension in `/src/yaml` destination
+1. Create file with *.yml extension in `/src/yaml`
 2. Type your documentation
 3. Add name of your file to array "files" in `/src/js/app.js`
 4. Compile using command
@@ -24,7 +24,7 @@ $ gulp
 YAML Structure
 ----------------
 
-Documentation is written in yaml language within structure below.
+Documentation is written in yaml within structure below.
 Loop for items separeted with 2 spaces
 
 ```
