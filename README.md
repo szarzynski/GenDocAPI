@@ -9,4 +9,5 @@ Install node modules:
 $ npm install
 ```
 
-Instruction for creating documentation
+How to create documentation
+----------------
